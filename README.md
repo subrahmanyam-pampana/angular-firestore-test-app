@@ -6,7 +6,7 @@ angularFire documentaion https://github.com/angular/angularfire
 
 by default it import files from @angular/fire/app but import the files from @angular/fire/compat/
 
-//import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+//import { initializeApp,provideFirebaseApp } from '@angular/fire/app';\n
 import { environment } from '../environments/environment';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
