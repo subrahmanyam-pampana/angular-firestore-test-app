@@ -5,12 +5,13 @@ this command adds fire module to angular module at path @angular/fire and instal
 angularFire documentaion https://github.com/angular/angularfire
 
 by default it import files from @angular/fire/app but import the files from @angular/fire/compat/
-`//import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+
+//import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { FormsModule } from '@angular/forms';
-//import { provideFirestore,getFirestore } from '@angular/fire/firestore';`
+//import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 
 
 # TestApp
