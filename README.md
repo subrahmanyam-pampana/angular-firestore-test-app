@@ -4,6 +4,14 @@ add the Angular Firebase module to angular by  running
 this command adds fire module to angular module at path @angular/fire and installs firebase in node_modles
 angularFire documentaion https://github.com/angular/angularfire
 
+by default it import files from @angular/fire/app but import the files from @angular/fire/compat/
+`//import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { FormsModule } from '@angular/forms';
+//import { provideFirestore,getFirestore } from '@angular/fire/firestore';`
+
 
 # TestApp
 
