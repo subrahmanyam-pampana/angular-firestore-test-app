@@ -1,6 +1,6 @@
 # Angualr fireBase
 add the Angular Firebase module to angular by  running 
-ng add @angular/fire  
+`ng add @angular/fire`  
 this command adds fire module to angular module at path @angular/fire and installs firebase in node_modles
 angularFire documentaion https://github.com/angular/angularfire
 
