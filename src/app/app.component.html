@@ -1,0 +1,16 @@
+<h1>test app</h1>
+<div>
+
+    <input type="text" [(ngModel)]="newValue"/>
+    <button (click)="insert()">insert</button> 
+</div>
+
+<ul>
+    <li class="text" *ngFor="let item of items | async">
+        <input type="text" value="{{item.itemName}}" [(ngModel)]="item.itemName">
+        <button (click)="getData(item)">getData</button> 
+        <button (click)="update(item)">update</button>
+        <button (click)="delete(item)">delete</button>
+        <button (click)="deleteField('array',item)">delete field</button>
+    </li>
+  </ul>

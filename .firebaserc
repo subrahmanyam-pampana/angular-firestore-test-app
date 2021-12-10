@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "takenote-9dff4": {
+      "hosting": {
+        "testApp": [
+          "takenote-9dff4"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "takenote-9dff4"
+  }
+}
