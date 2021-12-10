@@ -13,7 +13,8 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { FormsModule } from '@angular/forms';
 //import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 
-
+#git hub note
+https://www.freakyjolly.com/setup-git-in-angular-project-commit-changes/
 # TestApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
